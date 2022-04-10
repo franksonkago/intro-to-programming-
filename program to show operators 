@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+int main()
+{
+int y=5,z=4,c;
+c=y+z;
+printf("y+z=%d\n",c);
+c=y-z;
+printf("y-z=%d\n",c);
+c=y*z;
+printf("y*z=%d\n",c);
+c=y/z;
+printf("y/z=%d\n",c);
+c=y%z;
+printf("rem=%d\n",c);
+    return 0;
+}

@@ -1,0 +1,19 @@
+//program to give a discount of 10% for goods above 5000
+#include<stdio.h>
+
+int main()
+{
+   float amount, discount;
+   printf("enter amount\n");
+   scanf("%f",&amount);
+   if(amount >=5000)
+  {discount=0.1*amount;
+   printf("amount=%f", discount);
+  }
+   else
+   {discount=1*amount;}
+  
+   
+
+    return 0;
+}
